@@ -56,21 +56,40 @@ class StudentScreen extends StatelessWidget {
                             "Master of Biology",
                             style: GoogleFonts.lato(
                               fontSize: 16,
-                              fontWeight: FontWeight.bold,
+                              fontWeight: FontWeight.w900,
                               color: Color(0xff655794),
                             ),
                           ),
-                          SizedBox(height: 5),
-                          Text("test"),
-                          SizedBox(height: 5),
+                          SizedBox(height: 15),
+                          Stack(
+                            children: <Widget>[
+                              Container(
+                                height: 10,
+                                width: 100,
+                                decoration: BoxDecoration(
+                                  color: Colors.grey.withOpacity(0.2),
+                                  borderRadius: BorderRadius.circular(10.0),
+                                ),
+                              ),
+                              Container(
+                                height: 10,
+                                width: 40,
+                                decoration: BoxDecoration(
+                                  color: Color(0xff655794),
+                                  borderRadius: BorderRadius.circular(10.0),
+                                ),
+                              ),
+                            ],
+                          ),
+                          SizedBox(height: 15),
                           Row(
                             children: <Widget>[
                               Text(
                                 "14",
                                 style: GoogleFonts.lato(
-                                  fontWeight: FontWeight.bold,
-                                  color: Color(0xff655794),
                                   fontSize: 16,
+                                  fontWeight: FontWeight.w900,
+                                  color: Color(0xff655794),
                                 ),
                               ),
                               Text(
@@ -92,15 +111,14 @@ class StudentScreen extends StatelessWidget {
                   width: 40,
                   // color: Colors.black,
                   child: IconButton(
-                    icon: Icon(
-                      Icons.file_upload,
-                      color: Colors.redAccent.withOpacity(
-                        0.4,
+                      icon: Icon(
+                        Icons.file_upload,
+                        color: Colors.redAccent.withOpacity(
+                          0.4,
+                        ),
                       ),
-                    ),
-                    onPressed: () {},
-                    splashColor: Colors.pinkAccent.withOpacity(0.1)
-                  ),
+                      onPressed: () {},
+                      splashColor: Colors.pinkAccent.withOpacity(0.1)),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15.0),
                     color: Colors.redAccent.withOpacity(0.1),
