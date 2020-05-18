@@ -63,7 +63,6 @@ class StudentScreen extends StatelessWidget {
                           SizedBox(height: 5),
                           Text("test"),
                           SizedBox(height: 5),
-
                           Row(
                             children: <Widget>[
                               Text(
@@ -88,7 +87,25 @@ class StudentScreen extends StatelessWidget {
                     ),
                   ],
                 ),
-                IconButton(icon: Icon(Icons.cloud_upload), onPressed: () {})
+                Container(
+                  height: 40,
+                  width: 40,
+                  // color: Colors.black,
+                  child: IconButton(
+                    icon: Icon(
+                      Icons.file_upload,
+                      color: Colors.redAccent.withOpacity(
+                        0.4,
+                      ),
+                    ),
+                    onPressed: () {},
+                    splashColor: Colors.pinkAccent.withOpacity(0.1)
+                  ),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(15.0),
+                    color: Colors.redAccent.withOpacity(0.1),
+                  ),
+                ),
               ],
             ),
           ],
