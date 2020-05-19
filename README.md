@@ -1,16 +1,14 @@
-# student_app
+# flutter_student_app
 
-A new Flutter project.
+This project was used to create a flutter student profile screen.
 
-## Getting Started
+This is my first screen design in an attempt to learn flutter.
 
-This project is a starting point for a Flutter application.
+## Resources
 
-A few resources to get you started if this is your first Flutter project:
+This inspiration for this was from a dribble post:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+dribble link: https://dribbble.com/shots/11458805-Invest-in-students-app-interaction-design
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Image of Profile Screen]
+(https://cdn.dribbble.com/users/1998175/screenshots/11458805/downloads/1.phone.png)
