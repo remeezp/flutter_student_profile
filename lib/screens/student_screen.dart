@@ -5,9 +5,9 @@ import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 
 class StudentScreen extends StatelessWidget {
   // var data = [0.0, 1.0, 1.5, 2.0, 0.0, 0.0, -0.5, -1.0, -0.5, 0.0, 0.0];
-  var data1 = [0.0, -0.1333, 0.1222, -0.00333];
-  var data2 = [0.0, 0.1232, 0.0988, 0.1232];
-  var data3 = [0.0, -0.2, 0.3, 0.2];
+  final data1 = [0.0, -0.1333, 0.1222, -0.00333];
+  final data2 = [0.0, 0.1232, 0.0988, 0.1232];
+  final data3 = [0.0, -0.2, 0.3, 0.2];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
