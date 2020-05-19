@@ -10,5 +10,4 @@ This inspiration for this was from a dribble post:
 
 dribble link: https://dribbble.com/shots/11458805-Invest-in-students-app-interaction-design
 
-![Image of Profile Screen]
-(https://cdn.dribbble.com/users/1998175/screenshots/11458805/downloads/1.phone.png)
+![Image of Profile Screen](https://cdn.dribbble.com/users/1998175/screenshots/11458805/downloads/1.phone.png)
